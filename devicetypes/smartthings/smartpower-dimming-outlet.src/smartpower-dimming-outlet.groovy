@@ -26,6 +26,7 @@ metadata {
 		capability "Sensor"
 
 		fingerprint profileId: "0104", inClusters: "0000,0003,0004,0005,0006,0008,0B04,0B05", outClusters: "0019", manufacturer: "CentraLite", model: "4257050-ZHAC"
+		fingerprint profileId: "0104", inClusters: "0000,0003,0004,0005,0006,0008,0B04,0B05", outClusters: "0019", manufacturer: "CentraLite", model: "3100-G", deviceJoinName: "Centralite Smart Dimming Outlet"
 
 	}
 
