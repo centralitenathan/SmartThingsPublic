@@ -21,7 +21,8 @@ metadata {
 		capability "Temperature Measurement"
 		capability "Relative Humidity Measurement"
 
-		fingerprint endpointId: "01", inClusters: "0001,0003,0020,0402,0B05,FC45", outClusters: "0019,0003"
+		fingerprint endpointId: "01", inClusters: "0001,0003,0020,0402,0B05,FC45", outClusters: "0019,0003", manufacturer: "CentraLite", model: "3310-G", deviceJoinName: "Centralite Temp/Humidity Sensor"
+		fingerprint endpointId: "01", inClusters: "0001,0003,0020,0402,0B05,FC45", outClusters: "0019,0003", manufacturer: "CentraLite", model: "3310-Geu", deviceJoinName: "Centralite Temp/Humidity Sensor"
 	}
 
 	simulator {
